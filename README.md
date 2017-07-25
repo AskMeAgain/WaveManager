@@ -14,7 +14,7 @@ Wir haben also ein doppeltes Dictionary: Ein Dictionary das ein Dictionary speic
 
 Wir iterieren dann über das Ganze: Jede Welle wird durchgegangen, für jede Welle wird jedes Objekt durchgegangen und für jedes Object wird jeder Vertex Punkt durchgegangen. Wir ändern nun die Vertex Punkte von dem Objekt nach der Formel
 
-## offset = Sinus(PC-Zeit * Wellengeschwindigkeit + Wellenreichweite * Wellenfrequenz) * WellenZeit) * Wellengröße;
+##### offset = Sinus(PC-Zeit * Wellengeschwindigkeit + Wellenreichweite * Wellenfrequenz) * WellenZeit) * Wellengröße;
 
 Wichtig ist auch das eine Welle sich aufbauen muss deswegen hat jede Welle ein Distanz Dictionary welches speichert wie weit Fortgeschritten diese Welle ist. 
 

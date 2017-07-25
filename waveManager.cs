@@ -79,6 +79,7 @@ public class waveManager : MonoBehaviour {
 
         }
 
+        //this dictionary stores the new height of each vertex point inside a wave
         initOffsetDictionary();
 
     }

@@ -6,8 +6,6 @@ Script zum spawnen von Wellen auf jedem Mesh in Unity.
 ![alt text](https://thumbs.gfycat.com/KaleidoscopicMajorBluewhale-size_restricted.gif "Wie es aussieht")
 
 
-#### Wie funktioniert das ganze? 
-
 Beim spawnen von einer Welle werden alle Vertex Punkte die dafür nötig sind in einem Dictionary gespeichert. Der Schlüssel ist ein Wellen Objekt das bestimmte Variablen enthält (Größe etc).
 
 Da Wellen auch über viele verschiedene Objekte gehen können, muss jedes Objekt und die dazugehörigen Vertex Punkte für jede Welle gespeichert werden. Das ganze wird wieder in einem Dictionary gespeichert mit dem Object als Schlüssel. 
